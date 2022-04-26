@@ -4,17 +4,17 @@ import { FaBook } from "react-icons/fa"
 import SectionTitle from "../sectionTitle"
 import siteConfig from "../../../data/siteConfig"
 
-const Publications = ({ className }) => {
+const Publications = ({ className, title = "Publications", publications = []}) => {
   return (
     <div className={className}>
       <SectionTitle
-        title="Publications"
-        name="publications"
+        title={title}
+        name={title.toLowerCase()}
         icon={<FaBook size={28} />}
       />
       <div className="publications__content">
-        {siteConfig.publications &&
-          siteConfig.publications.map((pub, idx) => (
+        {publications &&
+          publications.map((pub, idx) => (
             <React.Fragment key={pub.title}>
               <div className="publications_pub">
                 <div className="publications_pub-header">

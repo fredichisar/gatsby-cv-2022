@@ -8,7 +8,7 @@ import {
   FaTwitter,
   FaFileAlt,
 } from "react-icons/fa"
-import siteConfig from "../../data/siteConfig"
+import siteConfig, { publications } from "../../data/siteConfig"
 import homePage from "../../data/homepage.json"
 
 import {
@@ -124,7 +124,9 @@ class Home extends React.Component {
               {/* <Separator />
             <Repositories /> */}
               <Separator />
-              <Publications />
+              {homePage.publications.display_publication && (
+                <Publications title={homePage.publications.title} publications={homePage.publications.publications}/>
+              )}
               <Separator />
               <Education />
               <Separator />
