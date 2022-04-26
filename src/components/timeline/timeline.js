@@ -3,18 +3,17 @@ import styled from "styled-components"
 import { config } from "react-awesome-styled-grid"
 import { FaSuitcase } from "react-icons/fa"
 import SectionTitle from "../sectionTitle"
-import siteConfig from "../../../data/siteConfig"
 
-const Timeline = ({ className }) => {
+const Timeline = ({className, title = "Experience", experience = [] }) => {
   return (
     <div className={className}>
       <SectionTitle
-        title="Experience"
-        name="experience"
+        title={title}
+        name={title.toLowerCase()}
         icon={<FaSuitcase size={28} />}
       />
-      {siteConfig.jobs &&
-        siteConfig.jobs.map(job => (
+      {experience &&
+        experience.map(job => (
           <article
             key={job.begin.month + job.begin.year}
             className="timeline__item"

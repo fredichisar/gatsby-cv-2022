@@ -120,7 +120,7 @@ class Home extends React.Component {
                 </Col>
               </Row>
               <Separator />
-              <Timeline />
+              <Timeline title={homePage.experience.title} experience={homePage.experience.experience} />
               {/* <Separator />
             <Repositories /> */}
               <Separator />
