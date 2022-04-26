@@ -2,6 +2,41 @@
 label: Homepage
 hide_body: true
 fields:
+- name: social_contact
+  type: field_group
+  config: {}
+  fields:
+  - name: avatar
+    type: file
+    config:
+      maxSize: 64
+    label: Avatar
+  - name: github
+    type: text
+    config:
+      required: false
+    label: Github
+  - name: linkedin
+    type: text
+    config:
+      required: false
+    label: Linkedin
+  - name: twitter
+    type: text
+    config:
+      required: false
+    label: Twitter
+  - name: email
+    type: text
+    config:
+      required: false
+    label: Email
+  - name: resume
+    type: file
+    config:
+      maxSize: 64
+    label: Resume
+  label: Social / contact
 - name: hero
   type: field_group
   config: {}
