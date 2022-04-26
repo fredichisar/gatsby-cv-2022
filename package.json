@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "name": "gatsby-cv-2022",
+  "private": false,
+  "description": "A simple resume starter to get up and developing quickly with Gatsby, deploy to Netlify",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Frederic ICHISAR <frederic@ichisar.com>",
   "dependencies": {
     "gatsby": "^4.12.1",
     "gatsby-plugin-gatsby-cloud": "^4.12.1",
@@ -12,18 +12,24 @@
     "gatsby-plugin-offline": "^5.12.1",
     "gatsby-plugin-react-helmet": "^5.12.1",
     "gatsby-plugin-sharp": "^4.12.1",
+    "gatsby-plugin-styled-components": "^5.12.1",
     "gatsby-source-filesystem": "^4.12.1",
     "gatsby-transformer-sharp": "^4.12.1",
     "prop-types": "^15.8.1",
     "react": "^17.0.1",
+    "react-awesome-styled-grid": "^3.1.4",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-flag-kit": "^1.0.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "react-scroll": "^1.8.7",
+    "simple-json-fetch": "^1.0.1"
   },
   "devDependencies": {
     "prettier": "^2.6.2"
   },
   "keywords": [
-    "gatsby"
+    "gatsby, netlify"
   ],
   "license": "0BSD",
   "scripts": {
