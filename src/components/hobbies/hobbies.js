@@ -2,19 +2,18 @@ import React from "react"
 import styled from "styled-components"
 import { FaCoffee } from "react-icons/fa"
 import SectionTitle from "../sectionTitle"
-import siteConfig from "../../../data/siteConfig"
 
-const Hobbies = ({ className }) => {
+const Hobbies = ({ className, title="Hobbies", hobbies=[]}) => {
   return (
     <div className={className}>
       <SectionTitle
-        title="Hobbies"
-        name="hobbies"
+        title={title}
+        name={title.toLowerCase()}
         icon={<FaCoffee size={28} />}
       />
       <div className="hobbies__content">
-        {siteConfig.hobbies &&
-          siteConfig.hobbies.map(hobby => {
+        {hobbies &&
+          hobbies.map(hobby => {
             const icon = require("react-icons/fa")[hobby.icon]
             return (
               <div className="hobbies_item" key={hobby.name}>

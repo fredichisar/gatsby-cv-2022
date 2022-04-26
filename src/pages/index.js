@@ -130,7 +130,7 @@ class Home extends React.Component {
               <Separator />
               <Education title={homePage.education.title} education={homePage.education.education} languageTitle={homePage.education.languages_title} languages={homePage.education.language}/>
               <Separator />
-              <Hobbies />
+              <Hobbies title={homePage.Hobbies.title} hobbies={homePage.hobbies.hobby} />
               <Separator />
               {/* <Contact /> */}
             </Container>
