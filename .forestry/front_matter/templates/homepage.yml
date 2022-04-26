@@ -12,15 +12,15 @@ fields:
       required: true
     label: Title
     default: About
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Description
   label: About
-- name: description
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: html
-  label: Description
 pages:
 - data/homepage.json
