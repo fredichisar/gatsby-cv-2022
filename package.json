@@ -37,6 +37,8 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "forestry:preview": "gatsby develop -p 8080 -H 0.0.0.0",
+    "noIndex": "npm run build && echo 'User-agent: *\nDisallow: /' > public/robots.txt",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
     "serve": "gatsby serve",
