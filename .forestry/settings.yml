@@ -3,6 +3,13 @@ new_page_extension: md
 auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
+sections:
+- type: document
+  path: ''
+  label: Homepage
+  match: "**/*"
+- type: heading
+  label: Pages
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
