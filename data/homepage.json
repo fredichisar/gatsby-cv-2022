@@ -208,5 +208,13 @@
   "hero": {
     "title": "Hi! I'm Fred!",
     "sitecover": "/images/cover.jpeg"
+  },
+  "social_contact": {
+    "avatar": "/images/photo-linkedin.jpeg",
+    "github": "https://github.com/fredichisar",
+    "linkedin": "https://www.linkedin.com/in/frederic-ichisar/",
+    "twitter": "",
+    "email": "frederic@ichisar.com",
+    "resume": "/images/resume_alvaro_jimenez_2.pdf"
   }
 }
