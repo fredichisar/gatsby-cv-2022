@@ -7,7 +7,6 @@ sections:
 - type: document
   path: ''
   label: Homepage
-  match: "**/*"
 - type: heading
   label: Pages
 upload_dir: static/images
