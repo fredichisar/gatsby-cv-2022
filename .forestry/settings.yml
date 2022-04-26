@@ -4,11 +4,11 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
-- type: document
-  path: ''
-  label: Homepage
 - type: heading
   label: Pages
+- type: document
+  path: data/homepage.json
+  label: Homepage
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
