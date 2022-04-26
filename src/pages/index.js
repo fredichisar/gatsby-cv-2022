@@ -46,7 +46,7 @@ class Home extends React.Component {
         <Layout location={this.props.location}>
           <Seo title={title} keywords={keywords} />
 
-          <Hero heroImg={siteConfig.siteCover} title={title} />
+          <Hero heroImg={homePage.hero.sitecover} title={homePage.hero.title} />
 
           <Wrapper className={this.props.className}>
             <Container className="page-content" fluid>
