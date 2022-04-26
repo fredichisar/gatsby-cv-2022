@@ -9,6 +9,7 @@ import {
   FaFileAlt,
 } from "react-icons/fa"
 import siteConfig from "../../data/siteConfig"
+import homePage from "../../data/homepage.json"
 
 import {
   Layout,
@@ -112,7 +113,7 @@ class Home extends React.Component {
               </Row>
               <Row>
                 <Col xs={4} sm={4}>
-                  <About title="About" text={siteConfig.authorDescription} />
+                  <About title={homePage.about.title} text={homePage.about.description} />
                 </Col>
                 <Col xs={4} sm={4}>
                   <Skills title="Skills" skills={siteConfig.skills} />
