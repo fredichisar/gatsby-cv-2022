@@ -50,6 +50,11 @@ fields:
       schema:
         format: markdown
     label: authorDescription
+  - name: favicon
+    type: file
+    config:
+      maxSize: 64
+    label: Favicon
   label: Site details
 - name: analytics
   type: field_group
