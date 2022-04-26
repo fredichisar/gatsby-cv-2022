@@ -54,54 +54,54 @@ class Home extends React.Component {
                 <Col xs={4} className="avatar">
                   <img
                     className="avatar__image"
-                    src="/images/avatar.jpg"
+                    src={homePage.social_contact.avatar}
                     alt="user avatar"
                   />
                   <div className="social">
-                    {siteConfig.social.github && (
+                    {homePage.social_contact.github && (
                       <a
                         className="social-link github"
-                        href={siteConfig.social.github}
+                        href={homePage.social_contact.github}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <FaGithub className="social-icon" size="32" />
                       </a>
                     )}
-                    {siteConfig.social.linkedin && (
+                    {homePage.social_contact.linkedin && (
                       <a
                         className="social-link linkedin"
-                        href={siteConfig.social.linkedin}
+                        href={homePage.social_contact.linkedin}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <FaLinkedin className="social-icon" size="32" />
                       </a>
                     )}
-                    {siteConfig.social.twitter && (
+                    {homePage.social_contact.twitter && (
                       <a
                         className="social-link twitter"
-                        href={siteConfig.social.twitter}
+                        href={homePage.social_contact.twitter}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <FaTwitter className="social-icon" size="32" />
                       </a>
                     )}
-                    {siteConfig.social.email && (
+                    {homePage.social_contact.email && (
                       <a
                         className="social-link email"
-                        href={`mailto:${siteConfig.social.email}`}
+                        href={`mailto:${homePage.social_contact.email}`}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <FaEnvelope className="social-icon" size="32" />
                       </a>
                     )}
-                    {siteConfig.resume && (
+                    {homePage.social_contact.resume && (
                       <a
                         className="social-link resume"
-                        href={`${siteConfig.resume}`}
+                        href={`${homePage.social_contact.resume}`}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
