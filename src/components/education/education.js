@@ -20,7 +20,7 @@ const Education = ({ className, title="Education", education=[], languageTitle="
                 <div className="education__edu-header">
                   <span className="education__edu-school">{edu.school}</span>
                   <span className="education__edu-date">
-                    {edu.startYear} - {edu.endYear || "Present"}
+                    {edu.startyear} - {edu.endyear || "Present"}
                   </span>
                 </div>
                 <span className="education__edu-studies">
