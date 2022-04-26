@@ -179,5 +179,30 @@
         "code": "FR"
       }
     ]
+  },
+  "hobbies": {
+    "title": "Hobbies",
+    "hobby": [
+      {
+        "name": "Football",
+        "icon": "FaFutbol"
+      },
+      {
+        "name": "Photography",
+        "icon": "FaCamera"
+      },
+      {
+        "name": "Hiking",
+        "icon": "FaHiking"
+      },
+      {
+        "name": "Traveling",
+        "icon": "FaPlane"
+      },
+      {
+        "name": "Movies & Series",
+        "icon": "FaTv"
+      }
+    ]
   }
 }
