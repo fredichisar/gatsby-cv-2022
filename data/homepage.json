@@ -154,5 +154,30 @@
         "description": "Online training recorded for spanish e-learning platform. The training is for developers who know a little bit of ReactNative and wants to learn more about the platform"
       }
     ]
+  },
+  "education": {
+    "title": "Education",
+    "education": [
+      {
+        "school": "University of Balearic Islands",
+        "degree": "Bachelor degree",
+        "field": "Software Engineering",
+        "startyear": "2006",
+        "endyear": "2011"
+      }
+    ],
+    "languages_title": "",
+    "language": [
+      {
+        "language": "English",
+        "level": "Fluid Written & Spoken.",
+        "code": "EN"
+      },
+      {
+        "language": "French",
+        "level": "Native tongue.",
+        "code": "FR"
+      }
+    ]
   }
 }
