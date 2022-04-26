@@ -12,7 +12,7 @@ const skills = ({ title = "Skills", skills = [] }) => {
         icon={<FaUserGraduate size={28} />}
       />
       {skills.map(skill => (
-        <SkillBar key={skill.name} name={skill.name} level={skill.level} />
+        <SkillBar key={skill.title} name={skill.title} level={skill.percentage} />
       ))}
     </Fragment>
   )

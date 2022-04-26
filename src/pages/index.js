@@ -116,7 +116,7 @@ class Home extends React.Component {
                   <About title={homePage.about.title} text={homePage.about.description} />
                 </Col>
                 <Col xs={4} sm={4}>
-                  <Skills title="Skills" skills={siteConfig.skills} />
+                  <Skills title={homePage.skills.title} skills={homePage.skills.skill} />
                 </Col>
               </Row>
               <Separator />
