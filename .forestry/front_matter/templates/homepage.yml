@@ -214,25 +214,15 @@ fields:
         required: false
       label: field
     - name: startyear
-      type: datetime
+      type: text
+      config:
+        required: false
       label: startYear
-      description: ''
-      config:
-        required: false
-        date_format: YYYY
-        time_format: 
-        display_utc: false
-        export_format: YYYY
     - name: endyear
-      type: datetime
-      label: endYear
-      description: ''
+      type: text
       config:
         required: false
-        date_format: YYYY
-        time_format: 
-        display_utc: false
-        export_format: YYYY
+      label: endYear
     config:
       min: 
       max: 
