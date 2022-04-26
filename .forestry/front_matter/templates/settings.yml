@@ -1,4 +1,106 @@
 ---
 label: Settings
 hide_body: true
-fields: []
+fields:
+- name: site_details
+  type: field_group
+  config: {}
+  fields:
+  - name: sitetitle
+    type: text
+    config:
+      required: false
+    label: siteTitle
+  - name: sitedescription
+    type: text
+    config:
+      required: false
+    label: siteDescription
+  - name: siteurl
+    type: text
+    config:
+      required: false
+    label: siteUrl
+  - name: authorname
+    type: text
+    config:
+      required: false
+    label: authorName
+  - name: twitterusername
+    type: text
+    config:
+      required: false
+    label: twitterUsername
+  - name: githubusername
+    type: text
+    config:
+      required: false
+    label: githubUsername
+  - name: authoravatar
+    type: file
+    config:
+      maxSize: 64
+    label: authorAvatar
+  - name: authordescription
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: authorDescription
+  label: Site details
+- name: analytics
+  type: field_group
+  config: {}
+  fields:
+  - name: google_analytics_id
+    type: text
+    config:
+      required: false
+    label: Google Analytics Id
+  label: Analytics
+- name: design
+  type: field_group
+  config: {}
+  fields:
+  - name: light_mode
+    type: field_group
+    config: {}
+    fields:
+    - name: background_color
+      type: color
+      label: background_color
+      config:
+        required: true
+        color_format: Hex
+      default: "#FFFFFF"
+    - name: theme_color
+      type: color
+      label: theme_color
+      config:
+        required: true
+        color_format: Hex
+      default: "#25303B"
+    label: Light mode
+  - name: dark_mode
+    type: field_group
+    config: {}
+    fields:
+    - name: background_color
+      type: color
+      label: background_color
+      config:
+        required: true
+        color_format: Hex
+      default: "#25303B"
+    - name: theme_color
+      type: color
+      label: theme_color
+      config:
+        required: true
+        color_format: Hex
+      default: "#FFFFFF"
+    label: Dark mode
+  label: Design
