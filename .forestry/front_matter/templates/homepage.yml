@@ -195,8 +195,7 @@ fields:
       required: false
     label: Title
   - name: education
-    type: field_group
-    config: {}
+    type: field_group_list
     fields:
     - name: school
       type: text
@@ -214,15 +213,29 @@ fields:
         required: false
       label: field
     - name: startyear
-      type: text
-      config:
-        required: false
+      type: datetime
       label: startYear
-    - name: endyear
-      type: text
+      description: ''
       config:
         required: false
+        date_format: YYYY
+        time_format: 
+        display_utc: false
+        export_format: YYYY
+    - name: endyear
+      type: datetime
       label: endYear
+      description: ''
+      config:
+        required: false
+        date_format: YYYY
+        time_format: 
+        display_utc: false
+        export_format: YYY
+    config:
+      min: 
+      max: 
+      labelField: 
     label: education
   - name: languages
     type: field_group_list
