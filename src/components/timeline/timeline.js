@@ -32,7 +32,7 @@ const Timeline = ({className, title = "Experience", experience = [] }) => {
                   ({job.duration || "present"})
                 </small>
               </h2>
-              <p>{job.description}</p>
+              <p dangerouslySetInnerHTML={{ __html: job.description }}></p>
             </div>
           </article>
         ))}

@@ -26,8 +26,8 @@ const Publications = ({ className, title = "Publications", publications = []}) =
                 <span className="publications__pub-company">
                   {pub.company_medium}
                 </span>
-                <span className="publications__pub-description">
-                  {pub.description}
+                <span className="publications__pub-description" dangerouslySetInnerHTML={{ __html: pub.description }}>
+                
                 </span>
                 <a
                   href={pub.link}
