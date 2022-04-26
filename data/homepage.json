@@ -157,13 +157,15 @@
   },
   "education": {
     "title": "Education",
-    "education": {
-      "school": "University of Balearic Islands",
-      "degree": "Bachelor degree",
-      "field": "Software Engineering",
-      "startyear": "2006",
-      "endyear": "2011"
-    },
+    "education": [
+      {
+        "school": "University of Balearic Islands",
+        "degree": "Bachelor degree",
+        "field": "Software Engineering",
+        "startyear": "2006",
+        "endyear": "2011"
+      }
+    ],
     "languages": [
       {
         "language": "French",

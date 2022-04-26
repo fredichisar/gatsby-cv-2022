@@ -187,8 +187,7 @@ fields:
     label: Publications
   label: Publications
 - name: education
-  type: field_group
-  config: {}
+  type: field_group_list
   fields:
   - name: title
     type: text
