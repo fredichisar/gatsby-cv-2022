@@ -186,5 +186,68 @@ fields:
       labelField: 
     label: Publications
   label: Publications
+- name: education
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: education
+    type: field_group
+    config: {}
+    fields:
+    - name: school
+      type: text
+      config:
+        required: false
+      label: school
+    - name: degree
+      type: text
+      config:
+        required: false
+      label: degree
+    - name: field
+      type: text
+      config:
+        required: false
+      label: field
+    - name: startyear
+      type: text
+      config:
+        required: false
+      label: startYear
+    - name: endyear
+      type: text
+      config:
+        required: false
+      label: endYear
+    label: education
+  - name: languages
+    type: field_group_list
+    fields:
+    - name: language
+      type: text
+      config:
+        required: false
+      label: language
+    - name: level
+      type: text
+      config:
+        required: false
+      label: level
+    - name: code
+      type: text
+      config:
+        required: false
+      label: code
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: languages
+  label: Education
 pages:
 - data/homepage.json
