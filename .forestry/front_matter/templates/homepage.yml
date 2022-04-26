@@ -1,4 +1,24 @@
 ---
 label: Homepage
 hide_body: true
-fields: []
+fields:
+- name: about
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+    default: About
+  label: About
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html
+  label: Description
