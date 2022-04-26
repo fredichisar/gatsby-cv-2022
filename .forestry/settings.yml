@@ -9,6 +9,12 @@ sections:
 - type: document
   path: data/homepage.json
   label: Homepage
+- type: heading
+  label: Settings
+- type: document
+  path: data/settings.json
+  label: Site settings
+  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
