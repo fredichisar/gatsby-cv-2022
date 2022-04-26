@@ -22,3 +22,5 @@ fields:
     schema:
       format: html
   label: Description
+pages:
+- data/homepage.json
