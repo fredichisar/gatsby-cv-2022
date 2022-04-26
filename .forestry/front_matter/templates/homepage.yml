@@ -22,5 +22,40 @@ fields:
         format: html
     label: Description
   label: About
+- name: skills
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+    default: Skills
+  - name: skill
+    type: field_group_list
+    fields:
+    - name: title
+      type: text
+      config:
+        required: true
+      label: Title
+    - name: percentage
+      type: number
+      label: Percentage
+      description: ''
+      default: 0
+      required: true
+      config:
+        min: 0
+        max: 100
+        step: 
+        required: true
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Skill
+  label: Skills
 pages:
 - data/homepage.json
