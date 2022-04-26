@@ -35,5 +35,21 @@
         "percentage": 80
       }
     ]
+  },
+  "experience": {
+    "title": "Experience",
+    "experience": [
+      {
+        "company": "Bitfinex",
+        "begin": {
+          "year": 2019,
+          "month": "oct"
+        },
+        "duration": "",
+        "location": "Remote",
+        "occupation": "Mobile Engineer",
+        "description": "Working providing services for the development of their mobile app using ReactNative, with the goal of providing a complete, fast and smooth Cryptocurrency exchange application."
+      }
+    ]
   }
 }
