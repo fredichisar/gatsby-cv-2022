@@ -257,5 +257,33 @@ fields:
       labelField: 
     label: language
   label: Education
+- name: hobbies
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: hobby
+    type: field_group_list
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: name
+    - name: icon
+      type: text
+      config:
+        required: false
+      label: icon
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Hobby
+  label: Hobbies
 pages:
 - data/homepage.json
