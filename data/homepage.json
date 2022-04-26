@@ -2,5 +2,38 @@
   "about": {
     "title": "About",
     "description": "I'm a full-stack JS developer, currently focused in React/React Native development and blockchain solutions.<br><br>I worked in multiple stacks (React, AngularJs, .Net, Java, Android...), environments and types of companies (Startup, medium size and big corporate).<br><br>I currently work remotely as a frontend developer and mainly working with <strong>Javascript, React/ReactNative, NodeJS and Blockchain.</strong>"
+  },
+  "skills": {
+    "title": "Skills",
+    "skill": [
+      {
+        "title": "HTML",
+        "percentage": 90
+      },
+      {
+        "title": "CSS",
+        "percentage": 85
+      },
+      {
+        "title": "Javascript",
+        "percentage": 90
+      },
+      {
+        "title": "React",
+        "percentage": 80
+      },
+      {
+        "title": "Gastby",
+        "percentage": 85
+      },
+      {
+        "title": "NodeJs",
+        "percentage": 85
+      },
+      {
+        "title": "Git",
+        "percentage": 80
+      }
+    ]
   }
 }
