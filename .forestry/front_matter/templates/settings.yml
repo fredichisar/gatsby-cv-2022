@@ -120,5 +120,23 @@ fields:
       default: "#FFFFFF"
     label: Dark mode
   label: Design
+- name: headerlinks
+  type: field_group_list
+  fields:
+  - name: label
+    type: text
+    config:
+      required: false
+    label: label
+  - name: url
+    type: text
+    config:
+      required: false
+    label: url
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: headerLinks
 pages:
 - data/settings.json
