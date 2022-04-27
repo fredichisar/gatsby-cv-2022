@@ -163,7 +163,7 @@
     ]
   },
   "hobbies": {
-    "title": "Hobbies",
+    "title": "Loisirs",
     "hobby": [
       {
         "name": "Apprendre",
@@ -188,7 +188,7 @@
     ]
   },
   "hero": {
-    "title": "Hi! I'm Fred!",
+    "title": "Hello! Je suis Fred!",
     "sitecover": "/images/cover.jpeg"
   },
   "social_contact": {
