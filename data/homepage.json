@@ -44,92 +44,70 @@
     "title": "Experience",
     "experience": [
       {
-        "company": "Bitfinex",
+        "company": "Fifty Fifty Agency",
         "begin": {
-          "year": 2019,
+          "year": 2020,
           "month": "oct"
         },
-        "duration": "",
+        "duration": "Current",
         "location": "Remote",
-        "occupation": "Mobile Engineer",
-        "description": "Working providing services for the development of their mobile app using ReactNative, with the goal of providing a complete, fast and smooth Cryptocurrency exchange application."
+        "occupation": "Co founder",
+        "description": "Working providing development services and solution architecture. <br>Help companies to scale up their business by providing custom solutions.<br>Shopify, React, Gatsby, Wordpress, AWS"
       },
       {
-        "company": "Lifelabs.io",
+        "company": "Ledger",
         "begin": {
-          "month": "may",
+          "month": "oct",
           "year": 2018
         },
-        "duration": "1 years and 5 months",
-        "location": "UK - Remote",
-        "occupation": "Lead Frontend Developer",
-        "description": "I joined the company as one of the main developers, leading the frontend and mobile app development and helping with the architecture and coordination of the backend and blokchain teams."
+        "duration": "3 years and 6 months",
+        "location": "Paris - Remote",
+        "occupation": "Lead Developer",
+        "description": "I joined the company as Lead developer, leading the web development and helping with the architecture and coordination of the e-commerce, the marketing and the infrastructure."
       },
       {
-        "company": "Flipper",
+        "company": "Oyst",
         "begin": {
-          "month": "oct",
-          "year": 2015
+          "month": "mar",
+          "year": 2016
         },
-        "duration": "2 years and 7 months",
-        "location": "London, UK",
-        "occupation": "Senior Developer",
-        "description": "I joined the company as one of the first 5 employees, I have been involved in all technical areas (backend, frontend, db, devops, bi) but with a higher responsibility on frontend, which I was leading inside the team"
+        "duration": "1 year and 7 months",
+        "location": "Paris, FR",
+        "occupation": "E-commerce Senior Developer",
+        "description": "I joined the company in the plugin team to develop a payment plugin for WooCommerce, Shopify, Sales Force Commerce Cloud and also a full javascript one based on DOM through GTM. "
       },
       {
-        "company": "Radisson Blu Edwardian London",
+        "company": "Point Service Mobile",
         "begin": {
-          "month": "oct",
+          "month": "jun",
           "year": 2013
         },
-        "duration": "2 years",
-        "location": "London, UK",
+        "duration": "3 years",
+        "location": "Paris, FR",
         "occupation": "Software developer",
-        "description": "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+        "description": "Responsible of the company websites (Wordpress) all around the world (15 countries / languages including Hebrew) and connect it to an internal tool for billing ressources, schedule appointments.  "
       },
       {
-        "company": "HotelBeds",
+        "company": "Freelance",
         "begin": {
           "month": "oct",
-          "year": 2012
-        },
-        "duration": "1 year",
-        "location": "Majorca, Spain",
-        "occupation": "Software developer",
-        "description": "Member of a team in charge to create a new website to sell complementary holidays tickets and excursions, integrated inside the existing booking engine."
-      },
-      {
-        "company": "Brujula",
-        "begin": {
-          "month": "feb",
-          "year": 2012
-        },
-        "duration": "7 months",
-        "location": "Majorca, Spain",
-        "occupation": "Junior developer",
-        "description": "Working in a team for a third party company as a development house, in charge of their intranet site to manage all the information about new customers, employees, keep the stock up to date and some other small applications."
-      },
-      {
-        "company": "Bizzit",
-        "begin": {
-          "month": "jul",
-          "year": 2010
-        },
-        "duration": "3 months",
-        "location": "Majorca, Spain",
-        "occupation": "Intern developer",
-        "description": "Summer internship, Working with the company intranet site, creating new features and fixing some of the existing bugs."
-      },
-      {
-        "company": "Bizzit",
-        "begin": {
-          "month": "jul",
           "year": 2009
         },
-        "duration": "3 months",
-        "location": "Majorca, Spain",
-        "occupation": "Intern developer",
-        "description": "Summer internship, Working with the company intranet site, creating new features and fixing some of the existing bugs."
+        "duration": "4 year",
+        "location": "Paris, FR",
+        "occupation": "Software developer",
+        "description": "Develop many websites or solutions for clients like retailers, small and medium company, coachs... <br>Always focus on ROI, SEO and performance."
+      },
+      {
+        "company": "LCSP",
+        "begin": {
+          "month": "jul",
+          "year": 2005
+        },
+        "duration": "3 years",
+        "location": "Paris, FR",
+        "occupation": "Co-founder",
+        "description": "Build a company from scratch with my father to repair computers, provide IT maintenance to small companies and for individuals. <br>Services like sell and setup servers, routers (Windows / Cisco) "
       }
     ]
   },
