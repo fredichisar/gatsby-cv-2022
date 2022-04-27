@@ -2,8 +2,6 @@ import React, { useState } from "react"
 import styled from "styled-components"
 import { FaHome, FaBars } from "react-icons/fa"
 import { Link, animateScroll as scroll } from "react-scroll"
-import siteConfig from "../../../data/siteConfig"
-const { headerLinks } = siteConfig
 
 const HeaderWrapper = styled.header`
   position: fixed;
@@ -54,7 +52,7 @@ const HeaderLink = styled(Link)`
   }
 `
 
-const Header = ({ className }) => {
+const Header = ({ className, headerLinks }) => {
   const [toggled, setToggled] = useState(false)
   return (
     <HeaderWrapper className={className}>
