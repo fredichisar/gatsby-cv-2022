@@ -1,0 +1,202 @@
+{
+  "about": {
+    "title": "A propos",
+    "description": "I'm a full-stack developer, currently focused in JS (React / Gatsby / NodeJs) development, E-commerce solutions (Shopify) and Wordpress to Headless CMS.<br><br>I worked in multiple stacks (React, NodeJs, Shopify app, CI/CD... ), environments and types of companies (Startup, Scale up).<br><br>I currently work remotely as a senior developer and mainly working with <strong>Javascript, React/Gatsby, NodeJS and Shopify.</strong>"
+  },
+  "skills": {
+    "title": "Skills",
+    "skill": [
+      {
+        "title": "Javascript",
+        "percentage": 85
+      },
+      {
+        "title": "Node",
+        "percentage": 80
+      },
+      {
+        "title": "React / Gastby",
+        "percentage": 80
+      },
+      {
+        "title": "Serverless",
+        "percentage": 70
+      },
+      {
+        "title": "Solution architect",
+        "percentage": 90
+      },
+      {
+        "title": "Shopify",
+        "percentage": 85
+      },
+      {
+        "title": "Wordpress",
+        "percentage": 75
+      },
+      {
+        "title": "APIs (Rest / GraphQL)",
+        "percentage": 85
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "experience": [
+      {
+        "company": "Fifty Fifty Agency",
+        "begin": {
+          "year": 2020,
+          "month": "oct"
+        },
+        "duration": "Current",
+        "location": "Remote",
+        "occupation": "Co founder",
+        "description": "Working providing development services and solution architecture. <br>Help companies to scale up their business by providing custom solutions.<br>Shopify, React, Gatsby, Wordpress, AWS"
+      },
+      {
+        "company": "Ledger",
+        "begin": {
+          "month": "oct",
+          "year": 2018
+        },
+        "duration": "3 years and 6 months",
+        "location": "Paris - Remote",
+        "occupation": "Lead Developer",
+        "description": "I joined the company as Lead developer, leading the web development and helping with the architecture and coordination of the e-commerce, the marketing and the infrastructure."
+      },
+      {
+        "company": "Oyst",
+        "begin": {
+          "month": "mar",
+          "year": 2016
+        },
+        "duration": "1 year and 7 months",
+        "location": "Paris, FR",
+        "occupation": "E-commerce Senior Developer",
+        "description": "I joined the company in the plugin team to develop a payment plugin for WooCommerce, Shopify, Sales Force Commerce Cloud and also a full javascript one based on DOM through GTM. "
+      },
+      {
+        "company": "Point Service Mobile",
+        "begin": {
+          "month": "jun",
+          "year": 2013
+        },
+        "duration": "3 years",
+        "location": "Paris, FR",
+        "occupation": "Software developer",
+        "description": "Responsible of the company websites (Wordpress) all around the world (15 countries / languages including Hebrew) and connect it to an internal tool for billing ressources, schedule appointments.  "
+      },
+      {
+        "company": "Freelance",
+        "begin": {
+          "month": "oct",
+          "year": 2009
+        },
+        "duration": "4 year",
+        "location": "Paris, FR",
+        "occupation": "Software developer",
+        "description": "Develop many websites or solutions for clients like retailers, small and medium company, coachs... <br>Always focus on ROI, SEO and performance."
+      },
+      {
+        "company": "LCSP",
+        "begin": {
+          "month": "jul",
+          "year": 2005
+        },
+        "duration": "3 years",
+        "location": "Paris, FR",
+        "occupation": "Co-founder",
+        "description": "Build a company from scratch with my father to repair computers, provide IT maintenance to small companies and for individuals. <br>Services like sell and setup servers, routers (Windows / Cisco) "
+      }
+    ]
+  },
+  "publications": {
+    "display_publication": false,
+    "title": "Publications",
+    "publications": [
+      {
+        "title": "React Native for beginners",
+        "company_medium": "OpenWebinars",
+        "date": {
+          "month": "jun",
+          "year": "2019"
+        },
+        "link": "https://openwebinars.net/cursos/react-native-principiantes/",
+        "description": "<span class=\"publications__pub-description\">Online training recorded for spanish e-learning platform. The training is for JS developers willing to learn the basics of ReactNative</span><br>"
+      },
+      {
+        "title": "React Native intermediate level",
+        "company_medium": "OpenWebinars",
+        "date": {
+          "month": "jun",
+          "year": "2019"
+        },
+        "link": "https://openwebinars.net/cursos/react-native-intermedio/",
+        "description": "Online training recorded for spanish e-learning platform. The training is for developers who know a little bit of ReactNative and wants to learn more about the platform"
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "education": [
+      {
+        "school": "Self-education",
+        "degree": "Thousands of hours to learn ",
+        "field": "Software Engineering",
+        "startyear": "2006",
+        "endyear": "2022"
+      }
+    ],
+    "languages_title": "Languages",
+    "language": [
+      {
+        "language": "English",
+        "level": "Fluid Written & Spoken",
+        "code": "GB"
+      },
+      {
+        "language": "French",
+        "level": "Native tongue",
+        "code": "FR"
+      }
+    ]
+  },
+  "hobbies": {
+    "title": "Hobbies",
+    "hobby": [
+      {
+        "name": "Learn",
+        "icon": "FaLaptopCode"
+      },
+      {
+        "name": "DIY",
+        "icon": "FaTools"
+      },
+      {
+        "name": "Traveling",
+        "icon": "FaPlaneDeparture"
+      },
+      {
+        "name": "Friends",
+        "icon": "FaBeer"
+      },
+      {
+        "name": "Sport",
+        "icon": "FaBiking"
+      }
+    ]
+  },
+  "hero": {
+    "title": "Hi! I'm Fred!",
+    "sitecover": "/images/cover.jpeg"
+  },
+  "social_contact": {
+    "avatar": "/images/photo-linkedin.jpeg",
+    "github": "https://github.com/fredichisar",
+    "linkedin": "https://www.linkedin.com/in/frederic-ichisar/",
+    "twitter": "",
+    "email": "frederic@ichisar.com",
+    "resume": ""
+  }
+}

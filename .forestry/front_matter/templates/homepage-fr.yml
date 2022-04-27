@@ -1,0 +1,339 @@
+---
+label: Homepage FR
+hide_body: true
+fields:
+- name: social_contact
+  type: field_group
+  config: {}
+  fields:
+  - name: avatar
+    type: file
+    config:
+      maxSize: 64
+    label: Avatar
+  - name: github
+    type: text
+    config:
+      required: false
+    label: Github
+  - name: linkedin
+    type: text
+    config:
+      required: false
+    label: Linkedin
+  - name: twitter
+    type: text
+    config:
+      required: false
+    label: Twitter
+  - name: email
+    type: text
+    config:
+      required: false
+    label: Email
+  - name: resume
+    type: file
+    config:
+      maxSize: 64
+    label: Resume
+  label: Social / contact
+- name: hero
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: sitecover
+    type: file
+    config:
+      maxSize: 64
+    label: siteCover
+  label: Hero
+- name: about
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+    default: About
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Description
+  label: About
+- name: skills
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+    default: Skills
+  - name: skill
+    type: field_group_list
+    fields:
+    - name: title
+      type: text
+      config:
+        required: true
+      label: Title
+    - name: percentage
+      type: number
+      label: Percentage
+      description: ''
+      default: 0
+      required: true
+      config:
+        min: 0
+        max: 100
+        step: 
+        required: true
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Skill
+  label: Skills
+- name: experience
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+    default: Experience
+  - name: experience
+    type: field_group_list
+    fields:
+    - name: company
+      type: text
+      config:
+        required: true
+      label: Company
+    - name: begin
+      type: field_group
+      config: {}
+      fields:
+      - name: month
+        type: text
+        config:
+          required: true
+        label: Month
+      - name: year
+        type: number
+        label: Year
+        description: ''
+        default: 0
+        required: true
+        config:
+          min: 
+          max: 
+          step: 
+          required: true
+      label: Begin
+    - name: duration
+      type: text
+      config:
+        required: false
+      label: Duration
+    - name: location
+      type: text
+      config:
+        required: true
+      label: Location
+    - name: occupation
+      type: text
+      config:
+        required: false
+      label: Occupation
+    - name: description
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: html
+      label: Description
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Experience
+  label: Experience
+- name: publications
+  type: field_group
+  config: {}
+  fields:
+  - name: display_publication
+    type: boolean
+    label: Display publication
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: publications
+    type: field_group_list
+    fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: title
+    - name: company_medium
+      type: text
+      config:
+        required: false
+      label: company_medium
+    - name: date
+      type: field_group
+      config: {}
+      fields:
+      - name: month
+        type: text
+        config:
+          required: false
+        label: month
+      - name: year
+        type: text
+        config:
+          required: false
+        label: year
+      label: date
+    - name: link
+      type: text
+      config:
+        required: false
+      label: link
+    - name: description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html
+      label: description
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Publications
+  label: Publications
+- name: education
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: education
+    type: field_group_list
+    fields:
+    - name: school
+      type: text
+      config:
+        required: false
+      label: school
+    - name: degree
+      type: text
+      config:
+        required: false
+      label: degree
+    - name: field
+      type: text
+      config:
+        required: false
+      label: field
+    - name: startyear
+      type: text
+      config:
+        required: false
+      label: startYear
+    - name: endyear
+      type: text
+      config:
+        required: false
+      label: endYear
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: education
+  - name: languages_title
+    type: text
+    config:
+      required: false
+    label: Languages title
+  - name: language
+    type: field_group_list
+    fields:
+    - name: language
+      type: text
+      config:
+        required: false
+      label: language
+    - name: level
+      type: text
+      config:
+        required: false
+      label: level
+    - name: code
+      type: text
+      config:
+        required: false
+      label: code
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: language
+  label: Education
+- name: hobbies
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: hobby
+    type: field_group_list
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: name
+    - name: icon
+      type: text
+      config:
+        required: false
+      label: icon
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Hobby
+  label: Hobbies
+pages:
+- data/fr/homepage.json

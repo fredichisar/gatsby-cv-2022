@@ -9,6 +9,9 @@ sections:
 - type: document
   path: data/homepage.json
   label: Homepage
+- type: document
+  path: data/fr/homepage.json
+  label: Homepage FR
 - type: heading
   label: Settings
 - type: document
