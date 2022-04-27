@@ -8,7 +8,6 @@ import {
   FaTwitter,
   FaFileAlt,
 } from "react-icons/fa"
-import siteConfig from "../../data/siteConfig"
 import homePage from "../../data/homepage.json"
 import settings from "../../data/settings.json"
 
@@ -34,18 +33,18 @@ const Separator = styled.hr`
 class Home extends React.Component {
   render() {
     // validate siteConfig settings
-    if (siteConfig.googleAnalyticsId === "UA-000000000-1") {
+    if ( settings.analytics.google_analytics_id === "UA-000000000-1") {
       console.error(
         "WARNING: Please set a proper googleAnalyticsId. See https://analytics.google.com for details."
       )
     }
 
     const title = settings.site_details.sitetitle
-    const { keywords } = siteConfig
+    const { keywords, sitedescription, twitterusername } = settings.site_details
     return (
       <div className={this.props.className}>
         <Layout location={this.props.location}>
-          <Seo title={title} keywords={keywords} />
+          <Seo title={title} keywords={keywords} description={sitedescription} author={twitterusername}/>
 
           <Hero heroImg={homePage.hero.sitecover} title={homePage.hero.title} />
 
