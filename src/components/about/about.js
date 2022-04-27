@@ -5,7 +5,7 @@ import SectionTitle from "../sectionTitle"
 const about =  ({ title = "about", text = "" }) => {
   return (
     <Fragment>
-      <SectionTitle title="About" name="about" icon={<FaUserAlt size={28} />} />
+      <SectionTitle title={title} name={title.toLowerCase()} icon={<FaUserAlt size={28} />} />
       <p dangerouslySetInnerHTML={{ __html: text }} />
     </Fragment>
   )
