@@ -2,7 +2,6 @@ import React from "react"
 import styled from "styled-components"
 import { FaBook } from "react-icons/fa"
 import SectionTitle from "../sectionTitle"
-import siteConfig from "../../../data/siteConfig"
 
 const Publications = ({ className, title = "Publications", publications = []}) => {
   return (
@@ -38,7 +37,7 @@ const Publications = ({ className, title = "Publications", publications = []}) =
                   {pub.link}
                 </a>
               </div>
-              {idx < siteConfig.publications.length - 1 && <hr />}
+              {idx < publications.length - 1 && <hr />}
             </React.Fragment>
           ))}
       </div>
