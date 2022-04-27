@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa"
 import siteConfig from "../../data/siteConfig"
 import homePage from "../../data/homepage.json"
+import settings from "../../data/settings.json"
 
 import {
   Layout,
@@ -39,7 +40,7 @@ class Home extends React.Component {
       )
     }
 
-    const title = siteConfig.siteTitle
+    const title = settings.site_details.sitetitle
     const { keywords } = siteConfig
     return (
       <div className={this.props.className}>
