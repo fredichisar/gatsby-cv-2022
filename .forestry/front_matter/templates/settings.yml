@@ -109,3 +109,5 @@ fields:
       default: "#FFFFFF"
     label: Dark mode
   label: Design
+pages:
+- data/settings.json
