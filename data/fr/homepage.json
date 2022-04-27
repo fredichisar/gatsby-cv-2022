@@ -41,7 +41,7 @@
     ]
   },
   "experience": {
-    "title": "Experience",
+    "title": "Expériences",
     "experience": [
       {
         "company": "Fifty Fifty Agency",
@@ -49,10 +49,10 @@
           "year": 2020,
           "month": "oct"
         },
-        "duration": "Current",
-        "location": "Remote",
-        "occupation": "Co founder",
-        "description": "Working providing development services and solution architecture. <br>Help companies to scale up their business by providing custom solutions.<br>Shopify, React, Gatsby, Wordpress, AWS"
+        "duration": "Actuel",
+        "location": "Distanciel",
+        "occupation": "Co fondateur",
+        "description": "Nous fournissons des services de développement et d'architecture de solutions. Aider les entreprises à faire évoluer leur activité en leur fournissant des solutions personnalisées. Shopify, React, Gatsby, Wordpress, AWS"
       },
       {
         "company": "Ledger",
@@ -60,10 +60,10 @@
           "month": "oct",
           "year": 2018
         },
-        "duration": "3 years and 6 months",
-        "location": "Paris - Remote",
+        "duration": "3 ans et 6 mois",
+        "location": "Paris - Distanciel",
         "occupation": "Lead Developer",
-        "description": "I joined the company as Lead developer, leading the web development and helping with the architecture and coordination of the e-commerce, the marketing and the infrastructure."
+        "description": "J'ai rejoint la société en tant que lead developper, dirigeant le développement web. Aidant à l'architecture, à la coordination du e-commerce, du marketing et de l'infrastructure."
       },
       {
         "company": "Oyst",
@@ -71,10 +71,10 @@
           "month": "mar",
           "year": 2016
         },
-        "duration": "1 year and 7 months",
+        "duration": "1 an et 7 mois",
         "location": "Paris, FR",
-        "occupation": "E-commerce Senior Developer",
-        "description": "I joined the company in the plugin team to develop a payment plugin for WooCommerce, Shopify, Sales Force Commerce Cloud and also a full javascript one based on DOM through GTM. "
+        "occupation": "Développeur e-commerce confirmé",
+        "description": "J'ai rejoint la société dans l'équipe des plugins pour développer un plugin de paiement pour WooCommerce, Shopify, Sales Force Commerce Cloud et aussi un plugin full javascript basé sur le DOM via GTM."
       },
       {
         "company": "Point Service Mobile",
@@ -82,10 +82,10 @@
           "month": "jun",
           "year": 2013
         },
-        "duration": "3 years",
+        "duration": "3 ans",
         "location": "Paris, FR",
-        "occupation": "Software developer",
-        "description": "Responsible of the company websites (Wordpress) all around the world (15 countries / languages including Hebrew) and connect it to an internal tool for billing ressources, schedule appointments.  "
+        "occupation": "Développeur logiciel",
+        "description": "Responsable des sites web de l'entreprise (Wordpress) dans le monde entier (15 pays / langues dont l'hébreu) et les connecter à un outil interne de facturation, de prise de rendez-vous."
       },
       {
         "company": "Freelance",
@@ -93,10 +93,10 @@
           "month": "oct",
           "year": 2009
         },
-        "duration": "4 year",
+        "duration": "4 ans",
         "location": "Paris, FR",
-        "occupation": "Software developer",
-        "description": "Develop many websites or solutions for clients like retailers, small and medium company, coachs... <br>Always focus on ROI, SEO and performance."
+        "occupation": "Développeur logiciel",
+        "description": "Développement de nombreux sites web ou solutions pour des clients tels que des commerçants, des petites et moyennes entreprises, des coachs... Toujours  concentré sur le ROI, le SEO et la performance."
       },
       {
         "company": "LCSP",
@@ -104,10 +104,10 @@
           "month": "jul",
           "year": 2005
         },
-        "duration": "3 years",
+        "duration": "3 ans",
         "location": "Paris, FR",
-        "occupation": "Co-founder",
-        "description": "Build a company from scratch with my father to repair computers, provide IT maintenance to small companies and for individuals. <br>Services like sell and setup servers, routers (Windows / Cisco) "
+        "occupation": "Co-fondateur",
+        "description": "Création une entreprise à partir de zéro avec mon père pour réparer des ordinateurs, fournir une maintenance informatique aux petites entreprises et aux particuliers. Services tels que la vente et l'installation de serveurs, de routeurs (Windows / Cisco)."
       }
     ]
   },
