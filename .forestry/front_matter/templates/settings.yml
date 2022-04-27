@@ -17,18 +17,10 @@ fields:
       required: false
     label: siteDescription
   - name: keywords
-    type: field_group_list
-    fields:
-    - name: keyword
-      type: text
-      config:
-        required: false
-      label: keyword
+    type: text
     config:
-      min: 
-      max: 
-      labelField: 
-    label: keywords
+      required: false
+    label: Keywords
   - name: siteurl
     type: text
     config:
