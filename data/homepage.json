@@ -188,20 +188,20 @@
     "title": "Hobbies",
     "hobby": [
       {
-        "name": "Father ❤",
-        "icon": "FaChild"
-      },
-      {
-        "name": "Traveling",
-        "icon": "FaPlane"
-      },
-      {
         "name": "Learn",
         "icon": "FaLaptopCode"
       },
       {
         "name": "DIY",
         "icon": "FaTools"
+      },
+      {
+        "name": "Traveling",
+        "icon": "FaPlaneDeparture"
+      },
+      {
+        "name": "Friends",
+        "icon": "FaBeer"
       },
       {
         "name": "Sport",
