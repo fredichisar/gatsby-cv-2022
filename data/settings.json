@@ -24,5 +24,31 @@
       "theme_color": "#FFFFFF"
     },
     "hero_banner": "/images/cover.jpeg"
-  }
+  },
+  "headerlinks": [
+    {
+      "label": "About",
+      "url": "about"
+    },
+    {
+      "label": "Skills",
+      "url": "skills"
+    },
+    {
+      "label": "Experience",
+      "url": "experience"
+    },
+    {
+      "label": "Publications",
+      "url": "publications"
+    },
+    {
+      "label": "Education",
+      "url": "education"
+    },
+    {
+      "label": "Hobbies",
+      "url": "hobbies"
+    }
+  ]
 }
