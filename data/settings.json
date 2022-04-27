@@ -8,7 +8,24 @@
     "githubusername": "fredichisar",
     "authoravatar": "/images/photo-linkedin.jpeg",
     "authordescription": "I'm a full-stack JS developer, currently focused in React/React Native development and blockchain solutions.<br/><br/>\n  I worked in multiple stacks (React, AngularJs, .Net, Java, Android...), environments and types of companies (Startup, medium size and big corporate).<br/><br/>\n  I currently work remotely as a frontend developer and mainly working with <strong>Javascript, React/ReactNative, NodeJS and Blockchain.</strong>",
-    "favicon": "/images/favicon-32x32.png"
+    "favicon": "/images/favicon-32x32.png",
+    "keywords": [
+      {
+        "keyword": "CI/CD"
+      },
+      {
+        "keyword": "Netlify"
+      },
+      {
+        "keyword": "Forestry"
+      },
+      {
+        "keyword": "Gatsby"
+      },
+      {
+        "keyword": "React"
+      }
+    ]
   },
   "analytics": {
     "google_analytics_id": "UA-4492763-3"
