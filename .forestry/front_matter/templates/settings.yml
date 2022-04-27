@@ -137,6 +137,6 @@ fields:
     min: 
     max: 
     labelField: 
-  label: headerLinks
+  label: Header links
 pages:
 - data/settings.json
