@@ -115,8 +115,6 @@ class Home extends React.Component {
               </Row>
               <Separator />
               <Timeline title={homePage.experience.title} experience={homePage.experience.experience} />
-              {/* <Separator />
-            <Repositories /> */}
               <Separator />
               {homePage.publications.display_publication && (
                 <Publications title={homePage.publications.title} publications={homePage.publications.publications}/>
