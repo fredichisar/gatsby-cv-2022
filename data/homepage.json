@@ -1,38 +1,42 @@
 {
   "about": {
     "title": "About",
-    "description": "I'm a full-stack JS developer, currently focused in React/React Native development and blockchain solutions.<br><br>I worked in multiple stacks (React, AngularJs, .Net, Java, Android...), environments and types of companies (Startup, medium size and big corporate).<br><br>I currently work remotely as a frontend developer and mainly working with <strong>Javascript, React/ReactNative, NodeJS and Blockchain.</strong>"
+    "description": "I'm a full-stack developer, currently focused in JS (React / Gatsby / NodeJs) development, E-commerce solutions (Shopify) and Wordpress to Headless CMS.<br><br>I worked in multiple stacks (React, NodeJs, Shopify app, CI/CD... ), environments and types of companies (Startup, Scale up).<br><br>I currently work remotely as a senior developer and mainly working with <strong>Javascript, React/Gatsby, NodeJS and Shopify.</strong>"
   },
   "skills": {
     "title": "Skills",
     "skill": [
       {
-        "title": "HTML",
-        "percentage": 90
-      },
-      {
-        "title": "CSS",
-        "percentage": 85
-      },
-      {
         "title": "Javascript",
+        "percentage": 85
+      },
+      {
+        "title": "Node",
+        "percentage": 80
+      },
+      {
+        "title": "React / Gastby",
+        "percentage": 80
+      },
+      {
+        "title": "Serverless",
+        "percentage": 70
+      },
+      {
+        "title": "Solution architect",
         "percentage": 90
       },
       {
-        "title": "React",
-        "percentage": 80
-      },
-      {
-        "title": "Gastby",
+        "title": "Shopify",
         "percentage": 85
       },
       {
-        "title": "NodeJs",
-        "percentage": 85
+        "title": "Wordpress",
+        "percentage": 75
       },
       {
-        "title": "Git",
-        "percentage": 80
+        "title": "APIs (Rest / GraphQL)",
+        "percentage": 85
       }
     ]
   },
@@ -130,7 +134,7 @@
     ]
   },
   "publications": {
-    "display_publication": true,
+    "display_publication": false,
     "title": "Publications",
     "publications": [
       {
@@ -159,23 +163,23 @@
     "title": "Education",
     "education": [
       {
-        "school": "University of Balearic Islands",
-        "degree": "Bachelor degree",
+        "school": "Self-education",
+        "degree": "Thousands of hours to learn ",
         "field": "Software Engineering",
         "startyear": "2006",
-        "endyear": "2011"
+        "endyear": "2022"
       }
     ],
     "languages_title": "Languages",
     "language": [
       {
         "language": "English",
-        "level": "Fluid Written & Spoken.",
+        "level": "Fluid Written & Spoken",
         "code": "GB"
       },
       {
         "language": "French",
-        "level": "Native tongue.",
+        "level": "Native tongue",
         "code": "FR"
       }
     ]
@@ -184,24 +188,24 @@
     "title": "Hobbies",
     "hobby": [
       {
-        "name": "Football",
-        "icon": "FaFutbol"
-      },
-      {
-        "name": "Photography",
-        "icon": "FaCamera"
-      },
-      {
-        "name": "Hiking",
-        "icon": "FaHiking"
+        "name": "Father ❤",
+        "icon": "FaChild"
       },
       {
         "name": "Traveling",
         "icon": "FaPlane"
       },
       {
-        "name": "Movies & Series",
-        "icon": "FaTv"
+        "name": "Learn",
+        "icon": "FaLaptopCode"
+      },
+      {
+        "name": "Repair some stuffs",
+        "icon": "FaTools"
+      },
+      {
+        "name": "Sport",
+        "icon": "FaBiking"
       }
     ]
   },
