@@ -97,4 +97,8 @@ export default styled(Education)`
   .education__lang__text--noflag {
     margin-left: 24px;
   }
+  ul {
+    list-style: none;
+    margin-left: 0;
+  }
 `
