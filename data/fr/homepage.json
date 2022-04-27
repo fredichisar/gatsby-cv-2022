@@ -1,10 +1,10 @@
 {
   "about": {
     "title": "A propos",
-    "description": "I'm a full-stack developer, currently focused in JS (React / Gatsby / NodeJs) development, E-commerce solutions (Shopify) and Wordpress to Headless CMS.<br><br>I worked in multiple stacks (React, NodeJs, Shopify app, CI/CD... ), environments and types of companies (Startup, Scale up).<br><br>I currently work remotely as a senior developer and mainly working with <strong>Javascript, React/Gatsby, NodeJS and Shopify.</strong>"
+    "description": "Je suis développeur full-stack, actuellement focus sur des développements Javascript (React / Gatsby / NodeJs), la création de solution e-commerce (Shopify) et la transformation de Wordpress en Headless CMS.<br><br>J'ai travaillé sur plusieurs stacks (React, NodeJs, Shopify app, CI/CD... ), plusieurs en environments et pour différents type de compagnies (Startup, Scale up).<br><br>Je travail actuellement en distanciel en tant que développeur confirmé sur essentiellement des projets <strong>Javascript, React/Gatsby, NodeJS and Shopify.</strong>"
   },
   "skills": {
-    "title": "Skills",
+    "title": "Compétences",
     "skill": [
       {
         "title": "Javascript",
@@ -138,26 +138,26 @@
     ]
   },
   "education": {
-    "title": "Education",
+    "title": "Formation",
     "education": [
       {
-        "school": "Self-education",
-        "degree": "Thousands of hours to learn ",
-        "field": "Software Engineering",
+        "school": "Autodidacte",
+        "degree": "Des milliers d'heures d'apprentissage ",
+        "field": "Développeur Logiciel",
         "startyear": "2006",
         "endyear": "2022"
       }
     ],
-    "languages_title": "Languages",
+    "languages_title": "Langues",
     "language": [
       {
-        "language": "English",
-        "level": "Fluid Written & Spoken",
+        "language": "Anglais",
+        "level": "Bon niveau écrit et parlé",
         "code": "GB"
       },
       {
-        "language": "French",
-        "level": "Native tongue",
+        "language": "Français",
+        "level": "Langue maternelle",
         "code": "FR"
       }
     ]
@@ -166,7 +166,7 @@
     "title": "Hobbies",
     "hobby": [
       {
-        "name": "Learn",
+        "name": "Apprendre",
         "icon": "FaLaptopCode"
       },
       {
@@ -174,11 +174,11 @@
         "icon": "FaTools"
       },
       {
-        "name": "Traveling",
+        "name": "Voyage",
         "icon": "FaPlaneDeparture"
       },
       {
-        "name": "Friends",
+        "name": "Amis",
         "icon": "FaBeer"
       },
       {
@@ -188,7 +188,7 @@
     ]
   },
   "hero": {
-    "title": "Hi! I'm Fred! FR",
+    "title": "Hi! I'm Fred!",
     "sitecover": "/images/cover.jpeg"
   },
   "social_contact": {
