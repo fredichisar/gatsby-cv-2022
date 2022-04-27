@@ -32,12 +32,6 @@ const Separator = styled.hr`
 
 class Home extends React.Component {
   render() {
-    // validate siteConfig settings
-    if ( settings.analytics.google_analytics_id === "UA-000000000-1") {
-      console.error(
-        "WARNING: Please set a proper googleAnalyticsId. See https://analytics.google.com for details."
-      )
-    }
 
     const title = settings.site_details.sitetitle
     const { keywords, sitedescription, twitterusername } = settings.site_details

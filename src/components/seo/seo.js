@@ -9,7 +9,7 @@ function Seo({ description, lang, meta, keywords, title, author }) {
       render={data => {
         const metaDescription =
           description || data.site.siteMetadata.description
-        const author = author || data.site.siteMetadata.author
+        const twitterAuthor = author || data.site.siteMetadata.author
         return (
           <Helmet
             htmlAttributes={{
@@ -40,7 +40,7 @@ function Seo({ description, lang, meta, keywords, title, author }) {
               },
               {
                 name: `twitter:creator`,
-                content: author,
+                content: twitterAuthor,
               },
               {
                 name: `twitter:title`,
@@ -55,7 +55,7 @@ function Seo({ description, lang, meta, keywords, title, author }) {
                 keywords.length > 0
                   ? {
                       name: `keywords`,
-                      content: keywords.join(`, `),
+                      content: keywords.split(','),
                     }
                   : []
               )
@@ -77,7 +77,7 @@ Seo.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.array,
-  keywords: PropTypes.arrayOf(PropTypes.string),
+  keywords: PropTypes.string,
   title: PropTypes.string.isRequired,
 }
 
