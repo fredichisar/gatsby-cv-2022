@@ -24,5 +24,11 @@ export default styled(SkillBar)`
     background-color: #25303b;
     width: ${p => p.level || 0}%;
     height: 8px;
+    animation: progress 1000ms ease-in 1;
+  }
+  @keyframes progress {
+    from {
+      width: 0;
+    }
   }
 `
